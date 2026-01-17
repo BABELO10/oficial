@@ -1,0 +1,104 @@
+html,body{
+    background-color: rgb(235, 57, 45);
+    height: 100%;
+    
+}
+
+html,h1{
+color: #0e0202;
+font-size: 40px;
+text-align: center;
+}
+
+.boton-video{
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    padding: 12px 25px;
+    text-decoration: none;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    
+}
+
+.boton-video2{
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    padding: 12px 25px;
+    text-decoration: none;
+    background-color: #ab14c9;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    position: absolute;
+    left: 20px;
+    top: 71px;
+}
+
+.boton-video3{
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    padding: 12px 25px;
+    text-decoration: none;
+    background-color: #d8cb0f;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    position: absolute;
+    right: 20px;
+    top: 71px;
+}
+.boton-video4{
+display: block;
+    margin: 30px auto;
+    width: fit-content;
+    padding: 12px 25px;
+    text-decoration: none;
+    background-color: #24cfb3;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    position: absolute;
+    right: 20px;
+    top: 240px;
+}
+
+.boton-video5{
+display: block;
+    margin: 30px auto;
+    width: fit-content;
+    padding: 12px 25px;
+    text-decoration: none;
+    background-color: #7e726bf5;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    position: absolute;
+    left: 20px;
+    top: 240px;
+}
+
+.boton-video6{
+display: block;
+    margin: 30px auto;
+    width: fit-content;
+    padding: 12px 25px;
+    text-decoration: none;
+    background-color: #01cc2d;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    position: absolute;
+    right: 391px;
+    top: 240px;
+}

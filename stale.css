@@ -1,0 +1,28 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #7a7c7e, #8ba3d8);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+html,h2{
+     text-align: center;
+    color: #db1414;
+    margin-bottom: 30px;
+}
+
+html,p{
+     font-size: 20px;
+    line-height: 1.8;
+    color: #06090e;
+}
+
+html,strong{
+    color: red;
+    text-align: center;
+}
