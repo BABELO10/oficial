@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video - Galería de fotos</title>
+  <link rel="stylesheet" href="slideshow.css">
+</head>
+<body>
+  <div class="galeria-container">
+    <div class="info">Video - Galería de fotos</div>
+    <div class="contador">
+      <span id="actual">1</span> / <span id="total">12</span>
+    </div>
+
+    <div class="slide-wrapper" id="slideWrapper">
+      <div class="slide active"><img src="../img/foto1.jpeg" alt="Foto 1"></div>
+      <div class="slide"><img src="../img/foto2.jpeg" alt="Foto 2"></div>
+      <div class="slide"><img src="../img/foto3.jpeg" alt="Foto 3"></div>
+      <div class="slide"><img src="../img/foto4.jpeg" alt="Foto 4"></div>
+      <div class="slide"><img src="../img/foto5.jpeg" alt="Foto 5"></div>
+      <div class="slide"><img src="../img/foto6.jpeg" alt="Foto 6"></div>
+      <div class="slide"><img src="../img/foto7.jpeg" alt="Foto 7"></div>
+      <div class="slide"><img src="../img/foto8.jpeg" alt="Foto 8"></div>
+      <div class="slide"><img src="../img/foto9.jpeg" alt="Foto 9"></div>
+      <div class="slide"><img src="../img/foto10.jpeg" alt="Foto 10"></div>
+      <div class="slide"><img src="../img/foto11.jpeg" alt="Foto 11"></div>
+      <div class="slide"><img src="../img/foto12.jpeg" alt="Foto 12"></div>
+      <div class="slide"><img src="../img/foto13.jpeg" alt="Foto 13"></div>
+      <div class="slide"><img src="../img/foto14.jpeg" alt="Foto 14"></div>
+      <div class="slide"><img src="../img/foto15.jpeg" alt="Foto 15"></div>
+      <div class="slide"><img src="../img/foto16.jpeg" alt="Foto 16"></div>
+      <div class="slide"><img src="../img/foto17.jpeg" alt="Foto 17"></div>
+      <div class="slide"><img src="../img/foto18.jpeg" alt="Foto 18"></div>
+      <div class="slide"><img src="../img/foto19.jpeg" alt="Foto 19"></div>
+      <div class="slide"><img src="../img/foto20.jpeg" alt="Foto 20"></div>
+      <div class="slide"><img src="../img/foto21.jpeg" alt="Foto 21"></div>
+      <div class="slide"><img src="../img/foto22.jpeg" alt="Foto 22"></div>
+      <div class="slide"><img src="../img/foto23.jpeg" alt="Foto 23"></div>
+      <div class="slide"><img src="../img/foto24.jpeg" alt="Foto 24"></div>
+      <div class="slide"><img src="../img/foto25.jpeg" alt="Foto 25"></div>
+      <div class="slide"><img src="../img/foto26.jpeg" alt="Foto 26"></div>
+      <div class="slide"><img src="../img/foto27.jpeg" alt="Foto 27"></div>
+      <div class="slide"><img src="../img/foto28.jpeg" alt="Foto 28"></div>
+      <div class="slide"><img src="../img/foto29.jpeg" alt="Foto 29"></div>
+      <div class="slide"><img src="../img/foto30.jpeg" alt="Foto 30"></div>
+      <div class="slide"><img src="../img/foto31.jpeg" alt="Foto 31"></div>
+      <div class="slide"><img src="../img/foto32.jpeg" alt="Foto 32"></div>
+      <div class="slide"><img src="../img/foto33.jpeg" alt="Foto 33"></div>
+      <div class="slide"><img src="../img/foto34.jpeg" alt="Foto 34"></div>
+      <div class="slide"><img src="../img/foto35.jpeg" alt="Foto 35"></div>
+      <div class="slide"><img src="../img/foto36.jpeg" alt="Foto 36"></div>
+
+    <div class="controles">
+      <button id="anterior">← Anterior</button>
+      <button id="playpause">⏸ Pausar</button>
+      <button id="siguiente">Siguiente →</button>
+    </div>
+  </div>
+
+<audio id ="bg" loop>
+  <source src="../music/kevin kaarl-te quiero tanto.mp3" type="audio/mpeg">
+
+  <script>
+    window.addEventListener("load", () => {
+      const audio = document.getElementById("bg");
+      audio.play().catch(() => {
+      console.log("bloqueado por el navegador");
+      });
+    });
+  </script>
+  
+  
+</audio>
+  <script src="script.js"></script>
+</body>
+</html>
